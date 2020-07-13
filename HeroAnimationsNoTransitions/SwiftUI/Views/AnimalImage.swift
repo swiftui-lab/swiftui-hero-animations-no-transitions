@@ -21,6 +21,6 @@ struct AnimalImage: View {
             .scaledToFill()
             .clipShape(RectangleToCircle(cornerRadiusPercent: radiusPercent))
             .shadow(radius: shadowRadius)
-            .overlay(HeartView(isFavorite: favorite), alignment: .topTrailing)
+            .overlay(StarView(isFavorite: favorite), alignment: .topTrailing)
     }
 }

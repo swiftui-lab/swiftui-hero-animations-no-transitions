@@ -13,7 +13,6 @@ struct ItemData: Identifiable {
     let name: String
     let image: String
     let author: String
-    var removed: Bool = false
     var `class`: String
 }
 

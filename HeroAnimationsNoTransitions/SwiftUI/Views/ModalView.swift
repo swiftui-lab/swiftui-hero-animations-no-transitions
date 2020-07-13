@@ -67,7 +67,7 @@ struct ModalMod: AnimatableModifier {
                     Image(item.image)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .overlay(HeartView(isFavorite: isFavorite && flyingFromGrid).opacity(Double(1-pct)), alignment: .topTrailing)
+                        .overlay(StarView(isFavorite: isFavorite && flyingFromGrid).opacity(Double(1-pct)), alignment: .topTrailing)
                         .clipShape(RectangleToCircle(cornerRadiusPercent: cornerRadius))
                         .overlay(RectangleToCircle(cornerRadiusPercent: cornerRadius).stroke(Color.white, lineWidth: 2 * borderPct))
                         .padding(2 * borderPct)

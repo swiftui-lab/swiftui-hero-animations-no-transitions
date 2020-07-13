@@ -1,5 +1,5 @@
 //
-//  HeartView.swift
+//  StarView.swift
 //  Wildlife Encyclopedia
 //
 //  Created by SwiftUI-Lab on 10-Jul-2020.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct HeartView: View {
+struct StarView: View {
     let isFavorite: Bool
     
     var body: some View {
